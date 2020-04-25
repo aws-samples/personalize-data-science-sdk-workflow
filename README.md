@@ -4,8 +4,8 @@ As machine learning (ML) becomes a larger part of companies’ core business, th
 This post demonstrates the capabilities of the Data Science SDK with a common use case: how to automate Personalize. In this post, you create a serverless workflow to train a movie recommendation engine. Finally, the shows how to trigger a workflow based off a periodic schedule.
 
 ### This post uses the following AWS services:
-•	AWS Step Functions allows you to coordinate several AWS services into a serverless workflow. You can design and run workflows in which the output of one step acts as the input to the next step, and embed error handling into the workflow.
-•	AWS Lambda is a compute service that lets you run code without provisioning or managing servers. Lambda executes your code only when triggered and scales automatically, from a few requests per day to thousands per second.
+•	AWS Step Functions allows you to coordinate several AWS services into a serverless workflow. You can design and run workflows in which the output of one step acts as the input to the next step, and embed error handling into the workflow.\
+•	AWS Lambda is a compute service that lets you run code without provisioning or managing servers. Lambda executes your code only when triggered and scales automatically, from a few requests per day to thousands per second.\
 •	Amazon Personalize is a machine learning service which enables you to personalize your website, app, ads, emails, and more, with custom machine learning models which can be created in Amazon Personalize, with no prior machine learning experience.
 
 ## Overview of the SDK
