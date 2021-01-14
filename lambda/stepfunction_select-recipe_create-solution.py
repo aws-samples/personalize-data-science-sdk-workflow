@@ -8,7 +8,7 @@ personalize_runtime = boto3.client('personalize-runtime')
 def lambda_handler(event, context):
 
     list_recipes_response = personalize.list_recipes()
-    recipe_arn = "arn:aws:personalize:::recipe/aws-hrnn" # aws-hrnn selected for demo purposes
+    recipe_arn = "arn:aws:personalize:::recipe/aws-user-personalization" # aws-hrnn selected for demo purposes
     #list_recipes_response
 
     create_solution_response = personalize.create_solution(
